@@ -1,0 +1,12 @@
+html(lang="ja")
+head
+  meta(charset="UTF-8")
+  title SVG見るよ
+  link(rel="stylesheet" href="/assets/style.css")
+body
+  .list
+    each svg in files
+      .svg
+        div
+          img(src=`/svg/${svg}`)
+        span= svg

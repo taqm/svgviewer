@@ -1,0 +1,12 @@
+{
+  "name": "svgviewer",
+  "private": true,
+  "dependencies": {
+    "express": "^4.16.4",
+    "opn": "^5.4.0",
+    "pug": "^2.0.3"
+  },
+  "bin": {
+    "svg-view": "./index.js"
+  }
+}

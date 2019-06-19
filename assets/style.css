@@ -1,0 +1,27 @@
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.svg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 10%;
+    border: 1px solid #eee;
+
+}
+.svg div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    
+}
+.svg span{
+    flex: 1;
+    display: block;
+    background: #eee;
+    word-break: break-all;
+}
